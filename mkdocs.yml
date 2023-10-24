@@ -1,0 +1,20 @@
+site_name: My Docs
+
+theme:
+  name: material
+  language: en
+  palette:
+    primary: green
+    accent: light-blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+plugins:
+  - mkdocstrings
+nav:
+  - Calculation Docs: index.md
+  - tutorials.md
+  - How-To Guides:
+    - Guides: how-to-guides.md
+  - reference.md
+  - explanation.md
