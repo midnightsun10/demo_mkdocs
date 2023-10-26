@@ -17,9 +17,10 @@ jobs:
           python-version: "3.x"
           architecture: "x64"
       - name: Install mkdocs dependences
-        run: pip install mkdocs
-        run: pip install "mkdocstrings[python]"
-        run: pip install mkdocs-material
+        run: |
+          pip install mkdocs
+          pip install "mkdocstrings[python]"
+          pip install mkdocs-material
       - name: Build site
         run: mkdocs build      
       - name: Deploy to GitHub Pages        
