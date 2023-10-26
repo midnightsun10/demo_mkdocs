@@ -4,7 +4,7 @@ theme:
   name: material
   language: en
   palette:
-    primary: green
+    primary: black
     accent: light-blue
   font:
     text: Roboto
